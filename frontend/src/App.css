@@ -28,6 +28,16 @@ h1 {
   text-align: center;
   border: solid 2px #001f7d;
 }
+.footer {
+  background-color: #001f7d;
+  box-shadow: #001b6d;
+  border-top: solid 2px #001f7d;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  font-size: 25px;
+ }
 
 #nav {
   font-family: 'Roboto Serif', serif;
