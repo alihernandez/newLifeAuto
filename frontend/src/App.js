@@ -1,9 +1,19 @@
 import './App.css';
+import About from './components/About';
+import Contact from './components/Contact';
+import NavBar from './components/Nav.js';
 
-function App() {
+import Work from './components/PreviousWork';
+import Footer from './components/Footer';
+
+const  App = () => {
   return (
-    <div>
-      <p>New Life Automotive</p>
+    <div className='app'>
+      <NavBar id="nav" />
+      <About />
+      <Work />
+      <Contact />
+      <Footer />
     </div>
   );
 }
