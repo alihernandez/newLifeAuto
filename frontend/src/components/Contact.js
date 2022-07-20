@@ -5,8 +5,9 @@ const Contact = (props) => {
   const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
     return (
-        <form>
+        <form className='contactForm'>
             <h1>Contact Us Today!</h1>
+            <p>Phone: (970) 230-2418 <br /><br /> or send us a message!</p>
 
             <label>Name:</label>
             <input
@@ -34,6 +35,8 @@ const Contact = (props) => {
               placeholder="your message here..."
               name="message"
             />
+
+            <input type="Submit" value="Submit"></input>
         </form>
     )
 }
