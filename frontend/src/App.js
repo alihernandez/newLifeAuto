@@ -2,8 +2,8 @@ import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import NavBar from './components/Nav.js';
-
-import Work from './components/PreviousWork';
+import AvailServices from './components/AvailServices';
+import Work from './components/Work';
 import Footer from './components/Footer';
 
 const  App = () => {
@@ -11,6 +11,7 @@ const  App = () => {
     <div className='app'>
       <NavBar id="nav" />
       <About />
+      <AvailServices />
       <Work />
       <Contact />
       <Footer />
