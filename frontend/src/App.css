@@ -20,7 +20,11 @@ h1 {
 }
 
 .About {
+  background-color: #f7f7f77b;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  /* min-width:100vh; */
   max-width: 80%;
+  padding: 30px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -32,13 +36,14 @@ h1 {
 }
 
 .contactForm {
-border: 1px solid black;
+border: solid 2px #001f7d;
+box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
 /* border-radius: 100%; */
 background-color: #f7f7f77b;
 display: flex;
 padding: 30px;
 min-width:100vh;
-max-width: 50%;
+max-width: 80%;
 margin: 0 auto;
 margin-bottom: 2%;
 flex-direction: column;
@@ -47,7 +52,9 @@ justify-content: center;
 }
 
 .prevWork {
+  background-color: #f7f7f77b;
   border: solid 2px #001f7d;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
   display: flex;
   flex-direction: column;
   padding: 30px;
@@ -60,6 +67,63 @@ justify-content: center;
   object-fit: contain;
 }
 
+.prevWorkMenu {
+  display: flex;
+  flex-direction: row;
+}
+
+.prevWorkMenu button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  margin: 1.5%;
+  margin-bottom: 5%;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 0.25em 0.75em;
+  }
+}
+
+
+.repairItem {
+  background-color: #f7f7f77b;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  border: solid 2px #001f7d;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.repairItem img {
+  max-width: 40%;
+  max-height: 60%;
+  margin: 2%;
+}
+
+.imgContainer {
+  padding: 2%;
+}
 .imgContainer img{
   max-width: 20%;
   max-height: 30%;
