@@ -1,17 +1,20 @@
 import './App.css';
-import Banner from './components/banner/Banner';
-import Footer from './components/footer/Footer';
-import MainAbout from './components/mainAbout/MainAbout';
-import NavBar from './components/navBar/NavBar';
+import About from './components/About';
+import Contact from './components/Contact';
+import NavBar from './components/Nav.js';
+import AvailServices from './components/AvailServices';
+import Work from './components/Work';
+import Footer from './components/Footer';
 
-
-function App() {
+const  App = () => {
   return (
-    <div className="App">
-    <NavBar />
-    <Banner />
-    <MainAbout />
-    <Footer />
+    <div className='app'>
+      <NavBar id="nav" />
+      <About />
+      <AvailServices />
+      <Work />
+      <Contact />
+      <Footer />
     </div>
   );
 }
