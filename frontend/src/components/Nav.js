@@ -37,6 +37,7 @@ export default function NavBar() {
             sx={{ mr: 2 }}
           >
             <MenuIcon />
+            
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             New Life Automotive
